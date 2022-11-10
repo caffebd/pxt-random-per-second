@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="E)Vz6?(*nC+@@$%)}89d">item</variable><variable id=",y)?c%,i;@tV@@]h4oHz">mySprite</variable><variable type="KIND_SpriteKind" id="7Uz3`:~cBQSg(6J^KDv$">Player</variable><variable type="KIND_SpriteKind" id="z;+;It$6-2kXkKlq}5^?">Projectile</variable><variable type="KIND_SpriteKind" id="}SA:?up:,4[nxM/hZwMF">Food</variable><variable type="KIND_SpriteKind" id="__m4U8JMSpJU24Tdq}Fr">Enemy</variable></variables><block type="pxt-on-start" id="y{7Xp%*SI0BBe+Lz@FQO" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="(?}.]|C:[qsE+mxhU@8?"><field name="VAR" id=",y)?c%,i;@tV@@]h4oHz">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="%d.uQs}(.ECt)Ai@3+|2"><value name="img"><shadow type="screen_image_picker" id="1sd4qmz6vC}y{|shRabN"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 d 4 c . . 
+. . . . b 5 5 1 f f d d 4 4 4 b 
+. . . . b 5 5 d f b 4 4 4 4 b . 
+. . . b d 5 5 5 5 4 4 4 4 b . . 
+. b b d d d 5 5 5 3 5 5 5 b . . 
+b d d d b b b 5 5 5 5 5 5 5 b . 
+c d d b 5 5 d c 5 5 5 5 5 5 b . 
+c b b d 5 d c d 5 5 5 5 5 5 b . 
+c b 5 5 b c d d 5 5 5 5 5 5 b . 
+b b c c c d d d 5 5 5 5 5 d b . 
+. . . . c c d d d 5 5 5 b b . . 
+. . . . . . c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"1sd4qmz6vC}y{|shRabN"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="*E7v8,i.:/Aa~|IeswXA"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="setRndPos" id="*qn?%g=`.0}.CUp5Y}^3"><value name="sprite"><block type="variables_get" id="1~a/{p_e5LheHk}X!GmI"><field name="VAR" id=",y)?c%,i;@tV@@]h4oHz">mySprite</field></block></value><value name="seconds"><shadow type="math_number" id="o0Ud;!--,M5ufD0c+J8?"><field name="NUM">1</field></shadow></value></block></next></block></statement></block></xml>
